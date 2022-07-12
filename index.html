@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .prod {
+        display: flex;
+        text-align: center;
+      }
+      .prod > div {
+        margin: 20px;
+      }
+      .prod img {
+        max-height: 300px;
+      }
+    </style>
   </head>
   <body>
+    <div class="prod">
+      <div>
+        <img
+          src="https://ipgifts.ru/upload/iblock/c74/paket-ample-m-belyy-belyy-336907-foto-1.jpg"
+          alt="пакет"
+        />
+        <h5>пакет</h5>
+        <p>2</p>
+        <span>0</span>
+        <button data-id="1" class="addToCartBtn">Добавить</button>
+      </div>
+      <div>
+        <img
+          src="https://chingishan22.ru/wp-content/uploads/2019/01/spichki-belka.jpg"
+          alt="спички"
+        />
+        <h5>спички</h5>
+        <p>5</p>
+        <span>0</span>
+        <button data-id="2" class="addToCartBtn">Добавить</button>
+      </div>
+      <div>
+        <img
+          src="https://tehstom.ru/upload/iblock/f18/Spirtovka.jpg"
+          alt="спиртовка"
+        />
+        <h5>спиртовка</h5>
+        <p>100</p>
+        <span>0</span>
+        <button data-id="3" class="addToCartBtn">Добавить</button>
+      </div>
+    </div>
+    <div class="cart">
+      <h4>Итого</h4>
+      <span>0</span>
+    </div>
     <!--  <script src="lesson_1.js"></script> -->
-    <script src="lesson_2.js"></script>
+    <!-- <script src="lesson_2.js"></script> -->
+    <script defer src="lesson_3.js"></script>
   </body>
 </html>
