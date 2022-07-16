@@ -76,16 +76,16 @@ if (a1 >= 0 && a1 <= 15) {
 */
 // const sum = (a, b) => return a + b
 function sum(a, b) {
-  return console.log(a + b)
+  console.log(a + b)
 }
 function dif(a, b) {
-  return console.log(a - b)
+  console.log(a - b)
 }
 function mult(a, b) {
-  return console.log(a * b)
+  console.log(a * b)
 }
 function div(a, b) {
-  return console.log(a / b)
+  console.log(a / b)
 }
 
 /* 
@@ -135,8 +135,7 @@ function powFunc(val, pow) {
   }
   if (pow === 1) {
     return val
-  } else {
-    return val * powFunc(val, pow - 1)
   }
+  return val * powFunc(val, pow - 1)
 }
 console.log(val, pow)
